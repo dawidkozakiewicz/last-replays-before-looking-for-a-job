@@ -84,7 +84,7 @@ var SingleMovieItem = React.createClass({
   render: function () {
     return (
       React.createElement('li', {
-          src: this.props.movie.id
+          id: this.props.movie.id
         },
         React.createElement(MovieTitle, {
           title: this.props.movie.title
