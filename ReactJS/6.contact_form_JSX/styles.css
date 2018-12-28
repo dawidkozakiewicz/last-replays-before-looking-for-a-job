@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {margin: 0, padding: 0;}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #4a4e71;
+	 box-sizing: border-box;
+}
+
+p, a {
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+.contactItem {
+	display: inline-block;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.contactList
+{
+	background-color: #484e82;
+	border-radius: 15px;
+	border: 3px solid #4f5ac1;
+	width: 66%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    justify-content: space-around;
+}
+
+
+.contactForm {
+	background-color: #484e82;
+	border-radius: 15px;
+	border: 3px solid #4f5ac1;
+	width: 66%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    padding: 10px;
+
+
+}
+input {
+	
+	height: 50px;
+	border-radius: 15px;
+	border: none;
+	margin-right: 10px;
+	text-align: center;
+}
+
+button {
+  
+  color: white;
+  height: 60px;
+  background-color:  #484e82;;
+  border: none;
+  border-radius: 15px;
+  border: solid 3px #4f5ac1;
+  outline:none;
+
+}
+
+button:hover {
+  background-color: #6a6e8a;
+  color: white;
+
+}
+a {
+	color: white;
+}
+
+input:focus {
+    outline:none;
+    font-size: 20px;
+    text-align: center;
+}
